@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Nawaz Danish">
+    <title>Alarm Clock with Sound</title>
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <!-- Orbitron Fonts CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Demo CSS -->
+    <link rel="stylesheet" href="css/demo.css">
+  
+  </head>
+  <body>
+ <header class="intro">
+ <h1>Alarm Clock with Sound using HTML, CSS, and JS</h1>
+ </header>
+  
+      
+ <main>
+<div class="table clock-wrapper">
+  <div class="cell">
+    <h2 id="clock" class="clock"></h2>
+    
+    <select id="hours"></select>
+    <select id="minutes"></select>
+    <select id="seconds"></select>
+    <select id="ampm">
+      <option value="AM">AM</option>
+      <option value="PM">PM</option>
+    </select>
+    
+    <p>
+      <button id="snooze" class="hide">Snooze</button>
+      <button id="startstop">Set Alarm</button>
+    </p>
+  </div>
+</div>
+ </main>
+ 
+      
+  <footer class="credit">Developed By: Nawaz Danish</footer>
+  
+<!-- Alarm Clock JS  -->
+<script  src="./js/script.js"></script>
+      
+  </body>
+</html>
